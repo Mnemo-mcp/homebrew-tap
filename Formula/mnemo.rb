@@ -1,19 +1,19 @@
 # Homebrew formula for Mnemo
-# Place this in a tap repo: mnemo-ai/homebrew-tap/Formula/mnemo.rb
-# Users install with: brew install mnemo-ai/tap/mnemo
+# Place this in a tap repo: Mnemo-mcp/homebrew-tap/Formula/mnemo.rb
+# Users install with: brew tap Mnemo-mcp/tap && brew install mnemo
 
 class Mnemo < Formula
   desc "Persistent memory and code intelligence for AI coding assistants"
-  homepage "https://github.com/nikhil1057/Mnemo"
+  homepage "https://github.com/Mnemo-mcp/Mnemo"
   version "0.1.0"
 
   on_macos do
-    url "https://github.com/nikhil1057/Mnemo/releases/download/v#{version}/mnemo-darwin-arm64"
-    sha256 "d747a3491c3109f1a15ead4d3dd9f4a8af68d4a9d19f2ac693fdaad88c92c94b"
+    url "https://github.com/Mnemo-mcp/Mnemo/releases/download/v#{version}/mnemo-darwin-arm64"
+    sha256 "52d80a080bfec12ac9a22b637c07a32077755835fc86655c9e5d4931e8f69fe9"
   end
 
   on_linux do
-    url "https://github.com/nikhil1057/Mnemo/releases/download/v#{version}/mnemo-linux-x64"
+    url "https://github.com/Mnemo-mcp/Mnemo/releases/download/v#{version}/mnemo-linux-x64"
     sha256 "ff8793fdcc86d26c4bd8fb15576ce0dfe3b535bc84aea61a3d763dd5f0ee0395"
   end
 
