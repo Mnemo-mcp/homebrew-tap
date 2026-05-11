@@ -5,16 +5,16 @@
 class Mnemo < Formula
   desc "Persistent memory and code intelligence for AI coding assistants"
   homepage "https://github.com/Mnemo-mcp/Mnemo"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     url "https://github.com/Mnemo-mcp/Mnemo/releases/download/v#{version}/mnemo-darwin-arm64"
-    sha256 "52d80a080bfec12ac9a22b637c07a32077755835fc86655c9e5d4931e8f69fe9"
+    sha256 "621042b8610a917518ccc1d1f8df04f539ab0143e4bfd9a794b3b6580d9ac037"
   end
 
   on_linux do
     url "https://github.com/Mnemo-mcp/Mnemo/releases/download/v#{version}/mnemo-linux-x64"
-    sha256 "ff8793fdcc86d26c4bd8fb15576ce0dfe3b535bc84aea61a3d763dd5f0ee0395"
+    sha256 "16d04ac11f930ce0cff46bf989cbf15765021217f566410ad90fb7838fd212a5"
   end
 
   def install
